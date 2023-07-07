@@ -1,9 +1,10 @@
+import programmers.이중우선순위큐;
 import programmers.주식가격;
 
 public class Main {
     public static void main(String[] args) {
-        주식가격 x = new 주식가격();
-        int[] list = {1, 2, 3, 2, 3};
+        이중우선순위큐 x = new 이중우선순위큐();
+        String[] list = {"I 16", "I -5643", "D -1", "D 1", "D 1", "I 123", "D -1"};
         x.solution(list);
     }
 }
